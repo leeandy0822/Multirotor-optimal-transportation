@@ -25,6 +25,7 @@
     mav_name:=$(arg mav_name)
     namespace:=$(arg namespace)"
   />
+  
   <param name="tf_prefix" type="string" value="$(arg tf_prefix)" />
 
   <!-- push robot_description to factory and spawn robot in gazebo -->
